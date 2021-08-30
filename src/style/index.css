@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  --background: #FFFFFF;
+  --bar: #EDEDED;
+  --cover-bg: #F8F9FA;
+  --bg-secondary: #F6F6F6;
+  --selected: #EBEBEB;
+  --mute-text: #919191;
+  --accent: #009688;
+  --placedholder: #999999;
+  --outline: #F2F2F2;
+  --bg-dark: #E6E6E6;
+  --title: #525252;
+  --hover: #F5F5F5;
+  --input: #FFFFFF;
+  --scroll-thumb: #CCCCCC;
+  --search-bottom-border: #EBEBEB;
+}
+
+
+.dark{
+  --background: #131C21;
+  --bar: #2A2F32;
+  --cover-bg: #262D31;
+  --bg-secondary: #131C21;
+  --selected: #323739;
+  --mute-text: #B1B3B5;
+  --accent: #009688;
+  --placedholder: #999999;
+  --outline: #30383D;
+  --bg-dark: #364147;
+  --title: #D8D9DB;
+  --hover: #2D3134;
+  --input: #323739;
+  --scroll-thumb: #394045;
+  --search-bottom-border: #242D32;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background: var(--background);
+}
+
